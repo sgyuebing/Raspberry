@@ -5,11 +5,11 @@ config system
 	option urandom_seed '0'
 	option timezone 'CST-8'
 	option zonename 'Asia/Shanghai'
-	option hostname 'BI4PCS'
 	option description '树莓派B+'
 	option log_proto 'udp'
 	option conloglevel '8'
 	option cronloglevel '5'
+	option hostname 'Raspberry'
 
 config timeserver 'ntp'
 	list server 'ntp.tencent.com'
